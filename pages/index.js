@@ -125,7 +125,7 @@ const IndexPage = () => {
 
   return (
     <div className="min-h-screen bg-black  flex  justify-center items-center">
-      <h1 className="justify-center absolute top-[4rem] text-white font-mono text-2xl">Flash card system made by Bilegt</h1>
+      <h1 className="justify-center absolute top-[4rem] text-white font-mono text-2xl">Flash card system made</h1>
       <div className="max-w-md w-full bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="px-4 py-2 bg-white-200">
           <h1 className="text-xl font-bold text-gray-800">Flashcards</h1>
