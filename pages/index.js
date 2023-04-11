@@ -35,7 +35,7 @@ const flashcardData = [
 "Indolent - lazy or inactive",
 "Inevitable - something that is certain to happen or cannot be avoided",
 "expound - explain or present"
-/*"Insipid - dull or lacking flavor",
+"Insipid - dull or lacking flavor",
 "Intrepid - fearless and adventurous",
 "Jubilant - feeling or expressing great happiness or triumph",
 "Languid - slow and relaxed in movement or activity",
@@ -92,7 +92,7 @@ const flashcardData = [
 "Repudiate - to reject as having no authority or binding force; to disown or reject completely",
 "Resilient - able to withstand or recover quickly from difficult conditions",
 "Superfluous - unnecessary, especially through being more than enough"
-* */
+
 ];
 
 
@@ -126,7 +126,7 @@ const IndexPage = () => {
 
   return (
     <div className="min-h-screen bg-black  flex  justify-center items-center">
-      <h1 className="justify-center absolute top-[4rem] text-white font-mono text-2xl">Flash card </h1>
+      <h1 className="justify-center absolute top-[4rem] text-white font-mono text-2xl">Flash card by Bilegt </h1>
       <div className="max-w-md w-full bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="px-4 py-2 bg-white-200">
           <h1 className="text-xl font-bold text-gray-800">Flashcards</h1>
