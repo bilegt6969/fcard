@@ -34,7 +34,7 @@ const flashcardData = [
 "Incisive - clear and sharp in thinking or expression",
 "Indolent - lazy or inactive",
 "Inevitable - something that is certain to happen or cannot be avoided",
-"expound - explain or present"
+"expound - explain or present",
 "Insipid - dull or lacking flavor",
 "Intrepid - fearless and adventurous",
 "Jubilant - feeling or expressing great happiness or triumph",
@@ -125,8 +125,8 @@ const IndexPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-black  flex  justify-center items-center">
-      <h1 className="justify-center absolute top-[4rem] text-white font-mono text-2xl">Flash card by Bilegt </h1>
+    <div className="min-h-screen  bg-black  flex  justify-center items-center">
+      <h1 className="justify-center absolute top-[4rem] px-[3rem] mx-auto lg:text-xl md:text-xl sm:text-sm text-[1.5rem] text-white font-mono text-2xl">Flash Card System created by b1lgeee in 2022.</h1>
       <div className="max-w-md w-full bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="px-4 py-2 bg-white-200">
           <h1 className="text-xl font-bold text-gray-800">Flashcards</h1>
@@ -154,7 +154,7 @@ const IndexPage = () => {
             )}
             {!answerVisible && (
               <button
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full absolute bottom-[17rem] ml-[15rem]"
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full "
                 onClick={handleShowAnswerClick}
               >
                 Show Answer
@@ -162,7 +162,7 @@ const IndexPage = () => {
             )}
             {answerVisible && (
               <button
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mb-[1rem]  absolute bottom-[16rem] ml-[17rem]"
+                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full "
                 onClick={handleNextClick}
               >
                 Next
