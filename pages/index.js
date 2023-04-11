@@ -126,7 +126,7 @@ const IndexPage = () => {
 
   return (
     <div className="min-h-screen  bg-black  flex  justify-center items-center">
-      <h1 className="justify-center absolute top-[4rem] px-[3rem] mx-auto lg:text-xl md:text-xl sm:text-sm text-[1.5rem] text-white font-mono text-2xl">Flash Card System created by b1lgeee in 2022.</h1>
+      <h1 className="justify-center absolute top-[4rem] px-[3rem] mx-auto lg:text-xl md:text-xl sm:text-sm text-[1.5rem] text-white font-mono text-2xl">Flash Card System created by b1lgeee in 2023.</h1>
       <div className="max-w-md w-full bg-white shadow-lg rounded-lg overflow-hidden">
         <div className="px-4 py-2 bg-white-200">
           <h1 className="text-xl font-bold text-gray-800">Flashcards</h1>
